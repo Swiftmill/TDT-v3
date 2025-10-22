@@ -1,0 +1,13 @@
+body.is-preload *, body.is-preload *::before, body.is-preload *::after {
+    animation: none !important;
+    transition: none !important;
+}
+
+#main {
+    opacity: 1 !important;
+    transform: none !important;
+}
+
+.video-container .video-layer {
+    opacity: 1 !important;
+}
