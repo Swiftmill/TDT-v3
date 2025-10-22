@@ -1,0 +1,161 @@
+<!DOCTYPE HTML>
+<html lang="fr" class="is-preload">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <title>THE DARK TRIAD</title>
+    <link rel="preload" as="video" href="images/Video2.mp4" type="video/mp4">
+    <link rel="preload" as="video" href="images/Video3.mp4" type="video/mp4">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="css/inline_styles.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
+    <div id="overlay" aria-hidden="false" tabindex="0">
+        <div class="overlay-content">
+            <div class="halo"></div>
+            <p class="overlay-text">ENTER THE DARK TRIAD</p>
+            <span class="overlay-hint">Tap or click anywhere</span>
+        </div>
+    </div>
+
+    <div class="video-container" aria-hidden="true">
+        <video id="video" class="video-layer active" playsinline autoplay muted loop preload="auto">
+            <source src="images/Video1.mp4" type="video/mp4">
+        </video>
+        <video id="video-buffer" class="video-layer" playsinline muted loop preload="auto" aria-hidden="true">
+            <source src="images/Video2.mp4" type="video/mp4">
+        </video>
+        <div class="video-overlay">
+            <div class="rain"></div>
+            <div class="grain"></div>
+            <div class="scanlines"></div>
+            <div class="gradient"></div>
+        </div>
+        <div class="video-fallback" role="alert" aria-hidden="true">
+            <div class="video-fallback__poster"></div>
+            <button type="button" class="video-fallback__button" aria-label="Reprendre la lecture">Tap to play</button>
+        </div>
+    </div>
+
+    <div id="wrapper">
+        <header id="header">
+            <div class="logo" role="button" tabindex="0" aria-label="Changer la vidéo">
+                <img src="images/ccc_logo.png" alt="THE DARK TRIAD" />
+            </div>
+            <div class="content">
+                <div class="inner">
+                    <button id="btn" type="button" aria-label="Changer la vidéo"></button>
+                    <h1>THE DARK <span id="intellect">TRIAD</span></h1>
+                    <p class="tagline">THE GATE TO EVERYTHING OCCULT AND THE HIDDEN KNOWLEDGE LAID BY THE TRIAD. BESTOWED UPON ALL WHO SEEK THE TRUE KNOWLEDGE. ENTER THE TEMPLE NOW.</p>
+                </div>
+            </div>
+            <nav class="use-middle">
+                <ul>
+                    <li><a href="#intro" data-original-text="Intro">Intro</a></li>
+                    <li><a href="#library" data-original-text="Library">Library</a></li>
+                    <li><a href="#work" data-original-text="Work">Work</a></li>
+                    <li><a href="#about" data-original-text="About">About</a></li>
+                    <li><a href="#contact" data-original-text="Contact">Contact</a></li>
+                    <li><a href="#hos" data-original-text="HOS">HOS</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div id="main">
+            <article id="intro">
+                <h2 class="major">Intro</h2>
+                <span class="image main"><img src="images/pic01.jpg" alt="Ritual introduction" /></span>
+                <p>Step beyond the veil. The Dark Triad invites you to decode sigils, to collect echoes of forgotten rites, and to wield knowledge that fractures the ordinary. Prepare your ascent.</p>
+            </article>
+
+            <article id="library">
+                <h2 class="major">Library</h2>
+                <span class="image main"><img src="images/pic02.jpg" alt="Library archives" /></span>
+                <p>An archive of forbidden scriptures, decrypted scrolls, and spectral recordings. Browse curated tomes and phonetic keys crafted to guide initiates through the labyrinth.</p>
+                <div class="video-grid">
+                    <div class="video-card">
+                        <img src="images/thumb1.jpg" alt="Arcane compilation" />
+                        <div class="video-card__label">CIPHERED SERMONS</div>
+                    </div>
+                    <div class="video-card">
+                        <img src="images/thumb2.jpg" alt="Occult tapes" />
+                        <div class="video-card__label">SUBLIMINAL VAULT</div>
+                    </div>
+                </div>
+            </article>
+
+            <article id="work">
+                <h2 class="major">Work</h2>
+                <span class="image main"><img src="images/pic03.jpg" alt="Work rituals" /></span>
+                <p>Guided ceremonies that channel raw intent into tangible influence. Witness the synergy of symbolism, movement, and resonance meticulously composed for the triumvirate.</p>
+            </article>
+
+            <article id="about">
+                <h2 class="major">About</h2>
+                <p>The Dark Triad is an order forged by intellect, discipline, and convergence. Each chamber pulses with spectral light, each corridor tuned to sharpen the senses.</p>
+                <div class="video-grid">
+                    <div class="video-card">
+                        <img src="images/thumb3.jpg" alt="Sanctum" />
+                        <div class="video-card__label">INNER SANCTUM</div>
+                    </div>
+                    <div class="video-card">
+                        <img src="images/thumb4.jpg" alt="Ritual space" />
+                        <div class="video-card__label">RITUAL SPACE</div>
+                    </div>
+                    <div class="video-card">
+                        <img src="images/thumb5.jpg" alt="Command room" />
+                        <div class="video-card__label">COMMAND ROOM</div>
+                    </div>
+                </div>
+            </article>
+
+            <article id="contact">
+                <h2 class="major">Contact</h2>
+                <form>
+                    <div class="fields">
+                        <div class="field half">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name" />
+                        </div>
+                        <div class="field half">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" />
+                        </div>
+                        <div class="field">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" rows="4"></textarea>
+                        </div>
+                    </div>
+                    <ul class="actions">
+                        <li><input type="submit" value="Send Message" class="primary" /></li>
+                        <li><input type="reset" value="Reset" /></li>
+                    </ul>
+                </form>
+            </article>
+
+            <article id="hos">
+                <h2 class="major">Hall of Shadows</h2>
+                <p>A resonant chamber of echoes where the faithful imprint their mark. Align with the frequencies, engrave your glyph, ascend.</p>
+                <ul class="alt">
+                    <li>Shadow dossiers curated weekly.</li>
+                    <li>Encrypted summoning sequences.</li>
+                    <li>Direct communion with the triumvirate.</li>
+                </ul>
+            </article>
+        </div>
+
+        <footer id="footer">
+            <p class="copyright">&copy; THE DARK TRIAD. Join the circle.</p>
+        </footer>
+    </div>
+
+    <div id="bg" aria-hidden="true"></div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="js/inline_scripts.js"></script>
+</body>
+</html>
